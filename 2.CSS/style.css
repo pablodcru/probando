@@ -1,0 +1,27 @@
+/*My first css*/
+
+body { 
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #26a326bb;
+}
+img { 
+    border:5px solid white;
+}
+h1{
+    border: 2px dotted darkolivegreen;
+    text-align: center;
+}
+blockquote{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+cite{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.bigbold{
+    font-weight:bold;
+    font-size:1.3rem;
+}

@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg); /* los dos puntos y barra es para ir atras a la hora de buscar la imagen-*/
+	color:darkcyan;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: burlywood;
+}
+h1{
+	color:darkolivegreen;
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+fieldset{
+	border-radius: 10px;
+	border: 2px solid darkolivegreen;
+	margin: 1rem 0 1rem 0;
+}
+legend{
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: darkolivegreen;
+}
+label{
+	display: flex;
+	padding: 0.5rem 0;
+}
+p:not{[type="abtype"]} {
+	margin-top: 2rem;
+	color:darkolivegreen;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+input:not([type="radio"]):not([type="checkbox"]), textarea{
+	display: block;
+	width: 20rem;
+	border-radius: 10px;
+	border-style: none;
+	margin-bottom:0.8rem;
+}
+textarea{
+	height: 10rem;
+	padding: 1rem;
+	border-radius: 10px;
+}
+select{
+	font-size: 1rem;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+}
+button{
+	height: 2rem;
+	margin: 2rem 0;
+	padding:0.5rem 1 rem;
+	font-size: 1rem;
+	background-color:darkolivegreen;
+	color: burlywood;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+button:hover{
+	background-color:burlywood;
+	color:darkolivegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
